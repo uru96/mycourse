@@ -1,0 +1,299 @@
+
+//piosenka.txt
+
+commit bd7c4e451379e0c10114cd0556127352375f2509 (HEAD -> master)
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:42:37 2020 +0200
+
+    usuniecie powtarzajacych sie refrenow oraz modyfikacja piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index f50b9d0..1df9bf9 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,6 +6,6 @@ refren-1
+
+ zwrotka-3
+
+-refren-2
++refren-1
+
+-refren-3
+\ No newline at end of file
++refren-1
+\ No newline at end of file
+
+commit 209c0d079ed431372cbda9462ce3388cb3342d4c
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:28:26 2020 +0200
+
+    zamiana zwrotek i refrenow na nazwy plikow
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 8566644..f50b9d0 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,33 +1,11 @@
+-Odkąd zobaczyłem ciebie
+-Nie mogę jeść, nie mogę spać
+-Jak do tego doszło, nie wiem?
+-Miłość o sobie dała znać
++zwrotka-1
+
+-Co poradzić mogę na to
+-Że miłość przyszła właśnie dziś.
+-Że w sercu mym jest lato,
+-a w moich myślach jesteś ty
++zwrotka-2
+
+-Przez twe oczy, te oczy zielone oszalałem!
+-Gwiazdy chyba twym oczom oddały cały blask.
+-A ja serce miłości spragnione ci oddałem
+-Tak zakochać, zakochać się można tylko raz
++refren-1
+
+-W mych ramionach cię ukryje
+-U stóp Ci złożę cały świat.
+-Serce me dla ciebie bije
+-I czeka na twój mały znak
+-Jeden uśmiech twój wystarczy
+-I moje serce gubi rytm
+-O twą miłość będę walczył
+-O miłość walczyć to nie wstyd
++zwrotka-3
+
+-Przez twe oczy, te oczy zielone oszalałem
+-Gwiazdy Chyba twym oczom oddały cały blask
+-A ja serce miłości spragnione ci oddałem
+-Tak zakochać, zakochać się można tylko raz
++refren-2
+
+-Przez twe oczy, te oczy zielone oszalałem
+-Gwiazdy Chyba twym oczom oddały cały blask
+-A ja serce miłości spragnione ci oddałem
+-Tak zakochać, zakochać się można tylko raz
+\ No newline at end of file
++refren-3
+\ No newline at end of file
+
+commit 1c1b67c5424124835a57e184700bb5e5e6d89d79
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:18:05 2020 +0200
+
+    dodaje piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..8566644
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,33 @@
++Odkąd zobaczyłem ciebie
++Nie mogę jeść, nie mogę spać
++Jak do tego doszło, nie wiem?
++Miłość o sobie dała znać
++
++Co poradzić mogę na to
++Że miłość przyszła właśnie dziś.
++Że w sercu mym jest lato,
++a w moich myślach jesteś ty
++
++Przez twe oczy, te oczy zielone oszalałem!
++Gwiazdy chyba twym oczom oddały cały blask.
++A ja serce miłości spragnione ci oddałem
++Tak zakochać, zakochać się można tylko raz
++
++W mych ramionach cię ukryje
++U stóp Ci złożę cały świat.
++Serce me dla ciebie bije
++I czeka na twój mały znak
++Jeden uśmiech twój wystarczy
++I moje serce gubi rytm
++O twą miłość będę walczył
++O miłość walczyć to nie wstyd
++
++Przez twe oczy, te oczy zielone oszalałem
++Gwiazdy Chyba twym oczom oddały cały blask
++A ja serce miłości spragnione ci oddałem
++Tak zakochać, zakochać się można tylko raz
++
++Przez twe oczy, te oczy zielone oszalałem
++Gwiazdy Chyba twym oczom oddały cały blask
++A ja serce miłości spragnione ci oddałem
++Tak zakochać, zakochać się można tylko raz
+\ No newline at end of file
+
+
+//zwrotka-2
+
+commit 33437febde27876b0d3dc4cc58a67d5b9234c8bb
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:24:26 2020 +0200
+
+    dodaje zwrotka-2.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..1647b6a
+--- /dev/null
++++ b/zwrotka-2.txt
+@@ -0,0 +1,4 @@
++Co poradzić mogę na to
++Że miłość przyszła właśnie dziś.
++Że w sercu mym jest lato,
++a w moich myślach jesteś ty
+\ No newline at end of file
+
+
+//zwrotka-3
+
+commit 41dda78e6362de7793382f19f067da16c865edd1
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:25:51 2020 +0200
+
+    dodaje zwrotka-3.txt
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..f06b1b5
+--- /dev/null
++++ b/zwrotka-3.txt
+@@ -0,0 +1,8 @@
++W mych ramionach cię ukryje
++U stóp Ci złożę cały świat.
++Serce me dla ciebie bije
++I czeka na twój mały znak
++Jeden uśmiech twój wystarczy
++I moje serce gubi rytm
++O twą miłość będę walczył
++O miłość walczyć to nie wstyd
+\ No newline at end of file
+
+
+//refren-1
+
+commit f5abf9c138043cb8e179c94388ada6f51ce26608
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:37:38 2020 +0200
+
+    Revert "usuniecie 1 lini z 3 plikow refrenow"
+
+    This reverts commit 078b917da7362b501342af27e9891d34b8cbfb7e.
+
+diff --git a/refren-1.txt b/refren-1.txt
+index f1377cd..2533043 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1,3 +1,4 @@
+ Przez twe oczy, te oczy zielone oszalałem!
+ Gwiazdy chyba twym oczom oddały cały blask.
+ A ja serce miłości spragnione ci oddałem
++Tak zakochać, zakochać się można tylko raz
+\ No newline at end of file
+
+commit 078b917da7362b501342af27e9891d34b8cbfb7e
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:30:05 2020 +0200
+
+    usuniecie 1 lini z 3 plikow refrenow
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 2533043..f1377cd 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1,4 +1,3 @@
+@@ -1,4 +1,3 @@
+ Przez twe oczy, te oczy zielone oszalałem!
+ Gwiazdy chyba twym oczom oddały cały blask.
+ A ja serce miłości spragnione ci oddałem
+-Tak zakochać, zakochać się można tylko raz
+\ No newline at end of file
+
+commit 644003838c91cc6bd3a71ce1c70ad18ed8c2c77d
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:25:06 2020 +0200
+
+    dodaje refren-1.txt
+
+diff --git a/refren-1.txt b/refren-1.txt
+new file mode 100644
+index 0000000..2533043
+--- /dev/null
++++ b/refren-1.txt
+@@ -0,0 +1,4 @@
++Przez twe oczy, te oczy zielone oszalałem!
++Gwiazdy chyba twym oczom oddały cały blask.
++A ja serce miłości spragnione ci oddałem
++Tak zakochać, zakochać się można tylko raz
+\ No newline at end of file
+
+
+//caly log
+
+commit bd7c4e451379e0c10114cd0556127352375f2509 (HEAD -> master)
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:42:37 2020 +0200
+
+    usuniecie powtarzajacych sie refrenow oraz modyfikacja piosenka.txt
+
+commit f5abf9c138043cb8e179c94388ada6f51ce26608
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:37:38 2020 +0200
+
+    Revert "usuniecie 1 lini z 3 plikow refrenow"
+
+    This reverts commit 078b917da7362b501342af27e9891d34b8cbfb7e.
+
+commit 078b917da7362b501342af27e9891d34b8cbfb7e
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:30:05 2020 +0200
+
+    usuniecie 1 lini z 3 plikow refrenow
+
+commit 209c0d079ed431372cbda9462ce3388cb3342d4c
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:28:26 2020 +0200
+
+    zamiana zwrotek i refrenow na nazwy plikow
+
+commit d3f146a32bd208b2108f3c8cd468cbad3a38fdd3
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:27:07 2020 +0200
+
+    dodaje refren-3.txt
+
+commit c5b937a70fbed9380f08b2bb6973d6218cf0e531
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:26:43 2020 +0200
+
+    dodaje refren-2.txt
+
+commit 41dda78e6362de7793382f19f067da16c865edd1
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:25:51 2020 +0200
+
+    dodaje zwrotka-3.txt
+
+commit 644003838c91cc6bd3a71ce1c70ad18ed8c2c77d
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:25:06 2020 +0200
+
+    dodaje refren-1.txt
+
+commit 33437febde27876b0d3dc4cc58a67d5b9234c8bb
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:24:26 2020 +0200
+
+    dodaje zwrotka-2.txt
+
+commit 997b0a5f4e8def5aa48af2871c092e9fabba2442
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:23:54 2020 +0200
+
+    dodaje zwrotka-1.txt
+
+commit 1c1b67c5424124835a57e184700bb5e5e6d89d79
+Author: Wojtek_Uruski <uru1996@gmail.com>
+Date:   Thu Oct 15 21:18:05 2020 +0200
+
+    dodaje piosenka.txt
